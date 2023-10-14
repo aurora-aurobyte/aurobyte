@@ -15,12 +15,27 @@ export const Page404 = lazy(() => import("pages/PageNotFound"))
 
 // ----------------------------------------------------------------------
 
+const Loader = () => {
+    return (
+        <div className="preloader">
+            <div className="preloader-inner">
+                <div className="preloader-icon">
+                    <span />
+                    <span />
+                </div>
+            </div>
+        </div>
+    )
+}
+
+// ----------------------------------------------------------------------
+
 export default function Router() {
     const routes = useRoutes([
         {
             element: (
                 <Layout>
-                    <Suspense>
+                    <Suspense fallback={<Loader />}>
                         <Outlet />
                     </Suspense>
                 </Layout>
