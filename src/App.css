@@ -1,0 +1,7 @@
+.logo-router, .footer-logo {
+  height: 60px;
+}
+
+.logo-router img, .footer-logo img {
+  translate: 0 -30px;
+}
