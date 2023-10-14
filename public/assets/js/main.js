@@ -26,10 +26,10 @@ function init() {
         var logo = document.querySelector('.navbar-brand img')
         if (window.pageYOffset > sticky) {
             header_navbar.classList.add("sticky");
-            logo.src = 'assets/images/logo/logo.svg';
+            logo.src = 'assets/images/logo/black-logo.png';
         } else {
             header_navbar.classList.remove("sticky");
-            logo.src = 'assets/images/logo/white-logo.svg';
+            logo.src = 'assets/images/logo/logo.png';
         }
 
         // show or hide the back-top-top button
