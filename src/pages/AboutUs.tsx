@@ -1,7 +1,7 @@
 import Breadcrumbs from "components/BreadCrumbs"
 import AboutDescription from "components/aboutUs/AboutDescription"
 import CustomerReviews from "components/cutomerReviews/CustomerReviews"
-import OurTeam from "components/ourTeam/OurTeam"
+// import OurTeam from "components/ourTeam/OurTeam"
 import { Helmet } from "react-helmet-async"
 
 const AboutUs = () => {
