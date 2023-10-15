@@ -30,7 +30,7 @@ const CustomerReviews = () => {
                 </div>
                 <div className="row testimonial-slider">
                     {reviews.map((review: any, id: number) => (
-                        <Review review={review} />
+                        <Review review={review} key={id} />
                     ))}
                 </div>
             </div>
