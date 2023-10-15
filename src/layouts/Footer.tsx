@@ -33,35 +33,59 @@ const Footer = () => {
                                         </h4>
                                         <ul className="social">
                                             <li>
-                                                <a href="javascript:void(0)">
+                                                <a
+                                                    href="https://www.facebook.com/profile.php?id=61552006893571&mibextid=ZbWKwL"
+                                                    rel="author"
+                                                    target="_blank"
+                                                >
                                                     <i className="lni lni-facebook-filled" />
                                                 </a>
                                             </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
+                                            {/* <li>
+                                                <a
+                                                    href=""
+                                                    rel="author"
+                                                    target="_blank"
+                                                >
                                                     <i className="lni lni-instagram" />
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0)">
+                                                <a
+                                                    href=""
+                                                    rel="author"
+                                                    target="_blank"
+                                                >
                                                     <i className="lni lni-twitter-original" />
                                                 </a>
-                                            </li>
+                                            </li> */}
                                             <li>
-                                                <a href="javascript:void(0)">
+                                                <a
+                                                    href="https://www.linkedin.com/company/aurobyte"
+                                                    rel="author"
+                                                    target="_blank"
+                                                >
                                                     <i className="lni lni-linkedin-original" />
                                                 </a>
                                             </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
+                                            {/* <li>
+                                                <a
+                                                    href=""
+                                                    rel="author"
+                                                    target="_blank"
+                                                >
                                                     <i className="lni lni-pinterest" />
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0)">
+                                                <a
+                                                    href=""
+                                                    rel="author"
+                                                    target="_blank"
+                                                >
                                                     <i className="lni lni-youtube" />
                                                 </a>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </div>
                                     {/* End Single Widget */}

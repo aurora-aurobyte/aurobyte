@@ -1,4 +1,6 @@
 import Breadcrumbs from "components/BreadCrumbs"
+import CustomerReviews from "components/cutomerReviews/CustomerReviews"
+import OurTeam from "components/ourTeam/OurTeam"
 import { Helmet } from "react-helmet-async"
 
 const AboutUs = () => {
@@ -28,16 +30,22 @@ const AboutUs = () => {
                                     className="content wow fadeInRight"
                                     data-wow-delay=".4s"
                                 >
-                                    <h4>DECENTRALISED ECONOMY</h4>
+                                    <h4>We are AuroByte</h4>
                                     <h2>
-                                        We’ve built a platform to buy and sell
-                                        shares.
+                                        Turning Your Ideas into Digital Reality.
                                     </h2>
                                     <p>
-                                        Spend real fights effective anything
-                                        extra by leading. Mouthwatering leading
-                                        how real formula also locked-in have can
-                                        mountain thought. Jumbo plus shine sale.
+                                        At AuroByte Technologies, we are more
+                                        than just a software company – we are a
+                                        collective of passionate individuals who
+                                        have united our expertise to craft
+                                        digital solutions that empower
+                                        businesses. Our journey began with a
+                                        shared commitment to innovation,
+                                        excellence, and unwavering dedication to
+                                        delivering results. We're a team of
+                                        experts, and we're excited to share our
+                                        story with you.
                                     </p>
                                     <div className="list">
                                         <div className="single-list">
@@ -74,8 +82,8 @@ const AboutUs = () => {
                     </div>
                 </section>
                 {/* End About Area */}
-                {/* Start Testimonials Area */}
-                <section className="testimonials style2 section">
+
+                <section className="style2 section py-2">
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
@@ -84,395 +92,90 @@ const AboutUs = () => {
                                         className="wow zoomIn"
                                         data-wow-delay=".2s"
                                     >
-                                        Customer Reviews
+                                        Who we are?
                                     </h3>
                                     <h2
                                         className="wow fadeInUp"
                                         data-wow-delay=".4s"
                                     >
-                                        Our Testimonials
+                                        Our Expertise
                                     </h2>
                                     <p
                                         className="wow fadeInUp"
                                         data-wow-delay=".6s"
                                     >
-                                        There are many variations of passages of
-                                        Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.
+                                        At AuroByte Technologies, we specialize
+                                        in a wide array of services designed to
+                                        meet the diverse needs of businesses in
+                                        today's digital landscape. Our expertise
+                                        ranges from custom software development
+                                        and web design to mobile app creation,
+                                        ensuring that your digital presence is
+                                        not just cutting-edge but tailored to
+                                        your specific requirements. We also
+                                        excel in software testing, UI/UX design,
+                                        cloud services, DevOps, and more,
+                                        offering comprehensive solutions that
+                                        enhance efficiency and drive success.
+                                        With our team of experts headquartered
+                                        in the thriving tech hub of Sri Lanka,
+                                        we're dedicated to delivering top-notch
+                                        solutions with unmatched agility, making
+                                        us your ideal partner in achieving your
+                                        digital goals.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div className="row testimonial-slider">
-                            <div className="col-lg-6 col-12">
-                                {/* Start Single Testimonial */}
-                                <div className="single-testimonial">
-                                    <div className="inner-content">
-                                        <div className="quote-icon">
-                                            <i className="lni lni-quotation" />
-                                        </div>
-                                        <div className="text">
-                                            <p>
-                                                “A vast number of clients decide
-                                                to create dedicated software is
-                                                the online store. It is nothing
-                                                but a website with a catalog of
-                                                products and the possibility.”
-                                            </p>
-                                        </div>
-                                        <div className="author">
-                                            <img
-                                                src="assets/images/testimonial/testi-1.png"
-                                                alt="#"
-                                            />
-                                            <h4 className="name">
-                                                Somalia D Silva
-                                                <span className="deg">
-                                                    Business Manager
-                                                </span>
-                                            </h4>
-                                        </div>
-                                    </div>
+                    </div>
+                </section>
+
+                <section className="style2 section py-2">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12">
+                                <div className="section-title">
+                                    <h3
+                                        className="wow zoomIn"
+                                        data-wow-delay=".2s"
+                                    >
+                                        Why Choose AuroByte Technologies?
+                                    </h3>
+                                    <h2
+                                        className="wow fadeInUp"
+                                        data-wow-delay=".4s"
+                                    >
+                                        Team of experts
+                                    </h2>
+                                    <p
+                                        className="wow fadeInUp"
+                                        data-wow-delay=".6s"
+                                    >
+                                        We pride ourselves on being a team of
+                                        experts who are not just committed to
+                                        delivering top-notch solutions but also
+                                        dedicated to swift project delivery. We
+                                        understand that in today's fast-paced
+                                        digital world, time is of the essence.
+                                        Our experience, creativity, and passion
+                                        are the driving forces behind every
+                                        project we undertake.
+                                        <br />
+                                        Join us on this exciting journey, and
+                                        let's shape the future of technology
+                                        together. Your success is our mission.
+                                    </p>
                                 </div>
-                                {/* End Single Testimonial */}
-                            </div>
-                            <div className="col-lg-6 col-12">
-                                {/* Start Single Testimonial */}
-                                <div className="single-testimonial">
-                                    <div className="inner-content">
-                                        <div className="quote-icon">
-                                            <i className="lni lni-quotation" />
-                                        </div>
-                                        <div className="text">
-                                            <p>
-                                                “A vast number of clients decide
-                                                to create dedicated software is
-                                                the online store. It is nothing
-                                                but a website with a catalog of
-                                                products and the possibility.”
-                                            </p>
-                                        </div>
-                                        <div className="author">
-                                            <img
-                                                src="assets/images/testimonial/testi-2.png"
-                                                alt="#"
-                                            />
-                                            <h4 className="name">
-                                                David Warner
-                                                <span className="deg">
-                                                    Web Developer
-                                                </span>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* End Single Testimonial */}
-                            </div>
-                            <div className="col-lg-6 col-12">
-                                {/* Start Single Testimonial */}
-                                <div className="single-testimonial">
-                                    <div className="inner-content">
-                                        <div className="quote-icon">
-                                            <i className="lni lni-quotation" />
-                                        </div>
-                                        <div className="text">
-                                            <p>
-                                                “A vast number of clients decide
-                                                to create dedicated software is
-                                                the online store. It is nothing
-                                                but a website with a catalog of
-                                                products and the possibility.”
-                                            </p>
-                                        </div>
-                                        <div className="author">
-                                            <img
-                                                src="assets/images/testimonial/testi-3.png"
-                                                alt="#"
-                                            />
-                                            <h4 className="name">
-                                                Jems Gilario
-                                                <span className="deg">
-                                                    Graphics Designer
-                                                </span>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* End Single Testimonial */}
-                            </div>
-                            <div className="col-lg-6 col-12">
-                                {/* Start Single Testimonial */}
-                                <div className="single-testimonial">
-                                    <div className="inner-content">
-                                        <div className="quote-icon">
-                                            <i className="lni lni-quotation" />
-                                        </div>
-                                        <div className="text">
-                                            <p>
-                                                “A vast number of clients decide
-                                                to create dedicated software is
-                                                the online store. It is nothing
-                                                but a website with a catalog of
-                                                products and the possibility.”
-                                            </p>
-                                        </div>
-                                        <div className="author">
-                                            <img
-                                                src="assets/images/testimonial/testi-2.png"
-                                                alt="#"
-                                            />
-                                            <h4 className="name">
-                                                David Warner
-                                                <span className="deg">
-                                                    Web Developer
-                                                </span>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* End Single Testimonial */}
-                            </div>
-                            <div className="col-lg-6 col-12">
-                                {/* Start Single Testimonial */}
-                                <div className="single-testimonial">
-                                    <div className="inner-content">
-                                        <div className="quote-icon">
-                                            <i className="lni lni-quotation" />
-                                        </div>
-                                        <div className="text">
-                                            <p>
-                                                “A vast number of clients decide
-                                                to create dedicated software is
-                                                the online store. It is nothing
-                                                but a website with a catalog of
-                                                products and the possibility.”
-                                            </p>
-                                        </div>
-                                        <div className="author">
-                                            <img
-                                                src="assets/images/testimonial/testi-3.png"
-                                                alt="#"
-                                            />
-                                            <h4 className="name">
-                                                Jems Gilario
-                                                <span className="deg">
-                                                    Graphics Designer
-                                                </span>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* End Single Testimonial */}
                             </div>
                         </div>
                     </div>
                 </section>
+
+                {/* Start Testimonials Area */}
+                <CustomerReviews />
                 {/* End Testimonial Area */}
                 {/* Start Team Area */}
-                <section className="team section">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12">
-                                <div className="section-title">
-                                    <h3
-                                        className="wow zoomIn"
-                                        data-wow-delay=".2s"
-                                    >
-                                        Expert Team
-                                    </h3>
-                                    <h2
-                                        className="wow fadeInUp"
-                                        data-wow-delay=".4s"
-                                    >
-                                        Meet Our Team
-                                    </h2>
-                                    <p
-                                        className="wow fadeInUp"
-                                        data-wow-delay=".6s"
-                                    >
-                                        There are many variations of passages of
-                                        Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div
-                                className="col-lg-3 col-md-6 col-12 wow fadeInUp"
-                                data-wow-delay=".3s"
-                            >
-                                {/* Start Single Team */}
-                                <div className="single-team">
-                                    <div className="team-image">
-                                        <img
-                                            src="assets/images/team/team4.jpg"
-                                            alt="#"
-                                        />
-                                    </div>
-                                    <div className="content">
-                                        <h4>
-                                            Deco Milan
-                                            <span>Founder</span>
-                                        </h4>
-                                        <ul className="social">
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-facebook-filled" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-instagram" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-twitter-original" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-linkedin-original" />
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                {/* End Single Team */}
-                            </div>
-                            <div
-                                className="col-lg-3 col-md-6 col-12 wow fadeInUp"
-                                data-wow-delay=".5s"
-                            >
-                                {/* Start Single Team */}
-                                <div className="single-team">
-                                    <div className="team-image">
-                                        <img
-                                            src="assets/images/team/team1.jpg"
-                                            alt="#"
-                                        />
-                                    </div>
-                                    <div className="content">
-                                        <h4>
-                                            Liza Marko
-                                            <span>Developer</span>
-                                        </h4>
-                                        <ul className="social">
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-facebook-filled" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-instagram" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-twitter-original" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-linkedin-original" />
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                {/* End Single Team */}
-                            </div>
-                            <div
-                                className="col-lg-3 col-md-6 col-12 wow fadeInUp"
-                                data-wow-delay=".7s"
-                            >
-                                {/* Start Single Team */}
-                                <div className="single-team">
-                                    <div className="team-image">
-                                        <img
-                                            src="assets/images/team/team2.jpg"
-                                            alt="#"
-                                        />
-                                    </div>
-                                    <div className="content">
-                                        <h4>
-                                            John Smith
-                                            <span>Designer</span>
-                                        </h4>
-                                        <ul className="social">
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-facebook-filled" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-instagram" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-twitter-original" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-linkedin-original" />
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                {/* End Single Team */}
-                            </div>
-                            <div
-                                className="col-lg-3 col-md-6 col-12 wow fadeInUp"
-                                data-wow-delay=".9s"
-                            >
-                                {/* Start Single Team */}
-                                <div className="single-team">
-                                    <div className="team-image">
-                                        <img
-                                            src="assets/images/team/team3.jpg"
-                                            alt="#"
-                                        />
-                                    </div>
-                                    <div className="content">
-                                        <h4>
-                                            Amion Doe
-                                            <span>Co-Founder</span>
-                                        </h4>
-                                        <ul className="social">
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-facebook-filled" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-instagram" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-twitter-original" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i className="lni lni-linkedin-original" />
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                {/* End Single Team */}
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <OurTeam />
                 {/*/ End Team Area */}
                 {/* Start Clients Logo Area */}
                 <div className="client-logo">
