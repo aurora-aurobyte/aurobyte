@@ -5,7 +5,7 @@ import Footer from "./Footer"
 
 // ----------------------------------------------------------------------
 
-export default function DashboardLayout({ children }: { children: any }) {
+export default function Layout({ children }: { children: any }) {
     return (
         <>
             <Header />
@@ -15,6 +15,6 @@ export default function DashboardLayout({ children }: { children: any }) {
     )
 }
 
-DashboardLayout.propTypes = {
+Layout.propTypes = {
     children: PropTypes.node,
 }

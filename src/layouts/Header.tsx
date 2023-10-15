@@ -1,4 +1,4 @@
-import { RouterLink } from "routes/components"
+import { RouterLink, RouterNavLink } from "routes/components"
 
 const Header = () => {
     return (
@@ -37,22 +37,24 @@ const Header = () => {
                                 >
                                     <ul id="nav" className="navbar-nav ms-auto">
                                         <li className="nav-item">
-                                            <RouterLink
+                                            <RouterNavLink
                                                 href="/"
+                                                activeClassName="active"
                                                 aria-label="Toggle navigation"
                                             >
                                                 Home
-                                            </RouterLink>
+                                            </RouterNavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <RouterLink
+                                            <RouterNavLink
                                                 href="about-us"
+                                                activeClassName="active"
                                                 aria-label="Toggle navigation"
                                             >
                                                 About
-                                            </RouterLink>
+                                            </RouterNavLink>
                                         </li>
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <RouterLink
                                                 className="dd-menu collapsed"
                                                 href="javascript:void(0)"
@@ -132,21 +134,21 @@ const Header = () => {
                                                     </RouterLink>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> */}
                                         <li className="nav-item">
-                                            <RouterLink
+                                            <RouterNavLink
                                                 href="contact"
-                                                className="active"
+                                                activeClassName="active"
                                                 aria-label="Toggle navigation"
                                             >
                                                 Contact
-                                            </RouterLink>
+                                            </RouterNavLink>
                                         </li>
                                     </ul>
                                 </div>
                                 {/* navbar collapse */}
                                 <div className="button">
-                                    <RouterLink href="signup" className="btn">
+                                    <RouterLink href="contact" className="btn">
                                         Get started
                                     </RouterLink>
                                 </div>
