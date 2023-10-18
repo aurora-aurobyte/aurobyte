@@ -49,10 +49,10 @@ export default function Router() {
                 { path: "pricing", element: <Pricing /> },
             ],
         },
-        {
-            path: "login",
-            element: <LoginPage />,
-        },
+        // {
+        //     path: "login",
+        //     element: <LoginPage />,
+        // },
         {
             path: "404",
             element: <Page404 />,
