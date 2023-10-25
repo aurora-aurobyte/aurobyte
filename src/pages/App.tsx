@@ -7,6 +7,7 @@ import CustomerReviews from "components/cutomerReviews/CustomerReviews"
 // import LandingBlogs from "components/landing/LandingBlogs"
 // import IntroVideo from "components/landing/IntroVideo"
 import Faq from "components/landing/Faq"
+import Technologies from "components/landing/Technologies"
 import ClientsLogo from "components/landing/ClientsLogo"
 import CallAction from "components/landing/CallAction"
 import AboutDescription from "components/aboutUs/AboutDescription"
@@ -95,8 +96,11 @@ const IndexApp = () => {
                 {/* Start Faq Area */}
                 <Faq />
                 {/*/ End Faq Area */}
+                {/* Start technologies Logo Area */}
+                <Technologies/>
+                {/* End technologies Logo Area */}
                 {/* Start Clients Logo Area */}
-                <ClientsLogo />
+                {/* <ClientsLogo /> */}
                 {/* End Clients Logo Area */}
                 {/* Start Call Action Area */}
                 <CallAction />
