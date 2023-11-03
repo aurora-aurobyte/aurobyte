@@ -18,7 +18,7 @@ const Footer = () => {
                                                 className="footer-logo"
                                             >
                                                 <img
-                                                    src="assets/images/logo/logo.png"
+                                                    src="/assets/images/logo/logo.png"
                                                     alt="#"
                                                 />
                                             </RouterLink>

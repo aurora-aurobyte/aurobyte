@@ -14,7 +14,7 @@ const Header = () => {
                                     href="/"
                                 >
                                     <img
-                                        src="assets/images/logo/logo.png"
+                                        src="/assets/images/logo/logo.png"
                                         alt="Logo"
                                     />
                                 </RouterLink>
@@ -54,7 +54,10 @@ const Header = () => {
                                                 About
                                             </RouterNavLink>
                                         </li>
-                                        {/* <li className="nav-item">
+
+
+                                        {/* 
+                                         <li className="nav-item">
                                             <RouterLink
                                                 className="dd-menu collapsed"
                                                 href="javascript:void(0)"
@@ -135,6 +138,18 @@ const Header = () => {
                                                 </li>
                                             </ul>
                                         </li> */}
+
+
+
+                                        <li className="nav-item">
+                                            <RouterNavLink
+                                                href="careers"
+                                                activeClassName="active"
+                                                aria-label="Toggle navigation"
+                                            >
+                                                Careers
+                                            </RouterNavLink>
+                                        </li>
                                         <li className="nav-item">
                                             <RouterNavLink
                                                 href="contact"
