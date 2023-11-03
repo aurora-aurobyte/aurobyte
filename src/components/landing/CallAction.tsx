@@ -10,13 +10,13 @@ const CallAction = () => {
                             <div className="text">
                                 <h2>
                                     Ready to dive in? <br />
-                                    <span>Start your free trial today.</span>
+                                    <span>Get a free quotation today.</span>
                                 </h2>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-5 col-12">
                             <div className="button">
-                                <RouterLink href="pricing" className="btn">
+                                <RouterLink href="contact" className="btn">
                                     Get started
                                 </RouterLink>
                                 <RouterLink

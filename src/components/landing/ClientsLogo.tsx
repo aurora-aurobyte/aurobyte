@@ -6,7 +6,7 @@ const ClientsLogo = () => {
                     <div className="col-lg-3 col-md-3 col-12 text-center">
                         <div className="single-logo">
                             <img
-                                src="assets/images/client-logo/graygrids-logo.svg"
+                                src="/assets/images/client-logo/react.svg"
                                 alt="#"
                             />
                         </div>
@@ -14,7 +14,7 @@ const ClientsLogo = () => {
                     <div className="col-lg-3 col-md-3 col-12 text-center">
                         <div className="single-logo">
                             <img
-                                src="assets/images/client-logo/lineicons-logo.svg"
+                                src="/assets/images/client-logo/nodejs.svg"
                                 alt="#"
                             />
                         </div>
@@ -22,7 +22,7 @@ const ClientsLogo = () => {
                     <div className="col-lg-3 col-md-3 col-12 text-center">
                         <div className="single-logo">
                             <img
-                                src="assets/images/client-logo/ayro-logo.svg"
+                                src="/assets/images/client-logo/mongodb.svg"
                                 alt="#"
                             />
                         </div>
@@ -30,7 +30,7 @@ const ClientsLogo = () => {
                     <div className="col-lg-3 col-md-3 col-12 text-center">
                         <div className="single-logo">
                             <img
-                                src="assets/images/client-logo/uideck-logo.svg"
+                                src="/assets/images/client-logo/aws.svg"
                                 alt="#"
                             />
                         </div>
