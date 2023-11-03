@@ -1,6 +1,7 @@
 import Breadcrumbs from "components/BreadCrumbs"
 import AboutDescription from "components/aboutUs/AboutDescription"
 import CustomerReviews from "components/cutomerReviews/CustomerReviews"
+import ClientsLogo from "components/landing/ClientsLogo"
 // import OurTeam from "components/ourTeam/OurTeam"
 import { Helmet } from "react-helmet-async"
 
@@ -93,44 +94,7 @@ const AboutUs = () => {
                 {/* <OurTeam /> */}
                 {/*/ End Team Area */}
                 {/* Start Clients Logo Area */}
-                <div className="client-logo">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-3 col-md-3 col-12 text-center">
-                                <div className="single-logo">
-                                    <img
-                                        src="assets/images/client-logo/graygrids-logo.svg"
-                                        alt="#"
-                                    />
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-3 col-12 text-center">
-                                <div className="single-logo">
-                                    <img
-                                        src="assets/images/client-logo/lineicons-logo.svg"
-                                        alt="#"
-                                    />
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-3 col-12 text-center">
-                                <div className="single-logo">
-                                    <img
-                                        src="assets/images/client-logo/ayro-logo.svg"
-                                        alt="#"
-                                    />
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-3 col-12 text-center">
-                                <div className="single-logo">
-                                    <img
-                                        src="assets/images/client-logo/uideck-logo.svg"
-                                        alt="#"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <ClientsLogo />
                 {/* End Clients Logo Area */}
             </div>
         </>
