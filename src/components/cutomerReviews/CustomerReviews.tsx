@@ -10,6 +10,7 @@ const reviews = [
 ]
 
 const CustomerReviews = () => {
+    return null
     return (
         <section className="testimonials style2 section">
             <div className="container">

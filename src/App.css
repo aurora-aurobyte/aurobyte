@@ -52,6 +52,21 @@
   visibility: hidden;
 }
 
+.accordion .cont .accordion-item {
+  margin-bottom: 20px;
+}
+.accordion .cont:last-child .accordion-item {
+  margin: 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 80px;
+  padding: 0 200px;
+  position: relative;
+  z-index: 5;
+}
+
 @media (max-width: 767px) {
   .logo-router, .footer-logo {
     height: 30px;
@@ -62,5 +77,10 @@
 
   .header .navbar .navbar-nav .nav-item a.active::after {
     visibility: hidden;
+  }
+
+  .section-title {
+    padding: 0px 10px;
+    margin-bottom: 40px;
   }
 }
