@@ -8,9 +8,9 @@ import { Helmet } from "react-helmet-async"
 const AboutUs = () => {
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title> About Us | AuroByte </title>
-            </Helmet>
+            </Helmet> */}
             <Breadcrumbs current="About Us" />
             <div>
                 <section className="about section">
