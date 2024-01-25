@@ -1,5 +1,5 @@
 import { RouterLink } from "routes/components"
-import { Helmet } from "react-helmet-async"
+// import { Helmet } from "react-helmet-async"
 import Services from "components/landing/Services"
 import Portfolio from "components/landing/Portfolio"
 import CustomerReviews from "components/cutomerReviews/CustomerReviews"
@@ -14,9 +14,9 @@ import AboutDescription from "components/aboutUs/AboutDescription"
 const IndexApp = () => {
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title> Home | AuroByte </title>
-            </Helmet>
+            </Helmet> */}
             <div>
                 {/* Start Hero Area */}
                 <section className="hero-area">

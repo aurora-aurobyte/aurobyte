@@ -1,0 +1,165 @@
+import "./App.css";
+export const metadata = {
+	title: "Home | AuroByte",
+	description:
+		"At AuroByte Technologies, we are more than just a software company – we are a collective of passionate individuals who have united our expertise to craft digital solutions that empower businesses. Our journey began with a shared commitment to innovation, excellence, and unwavering dedication to delivering results. We're a team of experts, and we're excited to share our story with you.",
+};
+
+export default function RootLayout({
+	children,
+}: {
+	children: React.ReactNode;
+}) {
+	return (
+		<html lang="en">
+			<head>
+				<meta charSet="utf-8" />
+				<meta http-equiv="x-ua-compatible" content="ie=edge" />
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+				{/* <!-- ========================= CSS here ========================= --> */}
+				<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+				<link rel="stylesheet" href="/assets/css/LineIcons.3.0.css" />
+				<link rel="stylesheet" href="/assets/css/animate.css" />
+				<link rel="stylesheet" href="/assets/css/tiny-slider.css" />
+				<link rel="stylesheet" href="/assets/css/glightbox.min.css" />
+				<link rel="stylesheet" href="/assets/css/main.css" />
+
+				{/* <!-- Open Graph / Facebook --> */}
+				<meta property="og:type" content="website" />
+				<meta
+					property="og:url"
+					content="https://www.aurobytetechnologies.com"
+				/>
+				<meta property="og:title" content="AuroByte" />
+				<meta
+					property="og:image"
+					content="/assets/images/header/color-100.jpg"
+				/>
+
+				{/* <!-- Twitter --> */}
+				<meta property="twitter:card" content="summary_large_image" />
+				<meta
+					property="twitter:url"
+					content="https://www.aurobytetechnologies.com"
+				/>
+				<meta property="twitter:title" content="AuroByte" />
+				<meta
+					property="twitter:image"
+					content="/assets/images/header/color-100.jpg"
+				/>
+
+				<link
+					rel="apple-touch-icon"
+					sizes="180x180"
+					href="/favicons/apple-touch-icon.png"
+				/>
+				<link
+					rel="icon"
+					type="image/png"
+					sizes="32x32"
+					href="/favicons/favicon-32x32.png"
+				/>
+				<link
+					rel="icon"
+					type="image/png"
+					sizes="16x16"
+					href="/favicons/favicon-16x16.png"
+				/>
+				<link rel="manifest" href="/favicons/site.webmanifest" />
+
+				<link rel="canonical" href="https://www.aurobytetechnologies.com/" />
+			</head>
+
+			<body>
+				{children}
+				<script type="module" src="/src/main.tsx"></script>
+				{/* <!-- ========================= JS here ========================= --> */}
+				<script src="/assets/js/bootstrap.min.js"></script>
+				<script src="/assets/js/wow.min.js"></script>
+				<script src="/assets/js/tiny-slider.js"></script>
+				<script src="/assets/js/glightbox.min.js"></script>
+				<script src="/assets/js/count-up.min.js"></script>
+				<script src="/assets/js/imagesloaded.min.js"></script>
+				<script src="/assets/js/isotope.min.js"></script>
+				<script src="/assets/js/main.js"></script>
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `//========= testimonial 
+    tns({
+      container: '.testimonial-slider',
+      items: 3,
+      slideBy: 'page',
+      autoplay: false,
+      mouseDrag: true,
+      gutter: 0,
+      nav: true,
+      controls: false,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        540: {
+          items: 1,
+        },
+        768: {
+          items: 2,
+        },
+        992: {
+          items: 2,
+        },
+        1170: {
+          items: 3,
+        }
+      }
+    });
+
+    //====== counter up 
+    var cu = new counterUp({
+      start: 0,
+      duration: 2000,
+      intvalues: true,
+      interval: 100,
+      append: " ",
+    });
+    cu.start();
+
+    //========= glightbox
+    GLightbox({
+      'href': 'https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM',
+      'type': 'video',
+      'source': 'youtube', //vimeo, youtube or local
+      'width': 900,
+      'autoplayVideos': true,
+    });
+
+    //============== isotope masonry js with imagesloaded
+    imagesLoaded('#container', function () {
+      var elem = document.querySelector('.grid');
+      var iso = new Isotope(elem, {
+        // options
+        itemSelector: '.grid-item',
+        masonry: {
+          // use outer width of grid-sizer for columnWidth
+          columnWidth: '.grid-item'
+        }
+      });
+
+      let filterButtons = document.querySelectorAll('.portfolio-btn-wrapper button');
+      filterButtons.forEach(e =>
+        e.addEventListener('click', () => {
+
+          let filterValue = event.target.getAttribute('data-filter');
+          iso.arrange({
+            filter: filterValue
+          });
+        })
+      );
+    });`,
+					}}
+				></script>
+			</body>
+		</html>
+	);
+}
