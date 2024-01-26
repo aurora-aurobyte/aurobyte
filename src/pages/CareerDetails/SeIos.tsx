@@ -28,9 +28,9 @@ const SeIos = () => {
 
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title> Software Engineer iOS </title>
-            </Helmet>
+            </Helmet> */}
             <Breadcrumbs current="Vaconcies" />
             <div>
                 <section className="about section">

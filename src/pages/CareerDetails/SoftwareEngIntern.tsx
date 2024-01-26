@@ -1,5 +1,5 @@
 import Breadcrumbs from "components/BreadCrumbs"
-import { Helmet } from "react-helmet-async"
+// import { Helmet } from "react-helmet-async"
 import { RouterLink } from "routes/components"
 
 const SoftwareEngIntern = () => {
@@ -25,9 +25,9 @@ const SoftwareEngIntern = () => {
     ]
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title> About Us | AuroByte </title>
-            </Helmet>
+            </Helmet> */}
             <Breadcrumbs current="Vaconcies" />
             <div>
                 <section className="about section">

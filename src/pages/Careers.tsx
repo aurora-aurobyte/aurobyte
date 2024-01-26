@@ -1,13 +1,13 @@
 import Breadcrumbs from "components/BreadCrumbs"
-import { Helmet } from "react-helmet-async"
+// import { Helmet } from "react-helmet-async"
 import { RouterLink } from "routes/components"
 
 const Careers = () => {
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title> Careers | AuroByte </title>
-            </Helmet>
+            </Helmet> */}
             <Breadcrumbs current="Careers" />
             <section id="pricing" className="pricing-table section">
                 <div className="container">

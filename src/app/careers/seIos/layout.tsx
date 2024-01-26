@@ -1,7 +1,7 @@
 import RootLayout from "app/layout" 
 
 export const metadata = {
-	title: "About Us | AuroByte",
+	title: "Software Engineer - iOS",
 }
 
 export default function (props: {

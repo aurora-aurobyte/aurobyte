@@ -1,5 +1,5 @@
 import Breadcrumbs from "components/BreadCrumbs"
-import { Helmet } from "react-helmet-async"
+// import { Helmet } from "react-helmet-async"
 import { RouterLink } from "routes/components"
 
 const UiUxDesigner = () => {
@@ -24,9 +24,9 @@ const UiUxDesigner = () => {
     ]
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title> UI/UX Designer </title>
-            </Helmet>
+            </Helmet> */}
             <Breadcrumbs current="Vaconcies" />
             <div>
                 <section className="about section">

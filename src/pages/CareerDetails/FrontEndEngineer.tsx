@@ -1,5 +1,5 @@
 import Breadcrumbs from "components/BreadCrumbs"
-import { Helmet } from "react-helmet-async"
+// import { Helmet } from "react-helmet-async"
 import { RouterLink } from "routes/components"
 
 const FrontEndEngineer = () => {
@@ -20,9 +20,9 @@ const FrontEndEngineer = () => {
     ]
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title> Front-End Engineer </title>
-            </Helmet>
+            </Helmet> */}
             <Breadcrumbs current="Vaconcies" />
             <div>
                 <section className="about section">
