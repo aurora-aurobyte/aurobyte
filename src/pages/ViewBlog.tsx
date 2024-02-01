@@ -1,13 +1,9 @@
-import { Helmet } from "react-helmet-async"
 import Breadcrumbs from "components/BreadCrumbs"
 import { RouterLink } from "routes/components"
 
 const ViewBlog = () => {
     return (
         <>
-            <Helmet>
-                <title> View Blog | AuroByte </title>
-            </Helmet>
             <Breadcrumbs current="View Blog" />
 
             <section className="section blog-single">
@@ -19,7 +15,7 @@ const ViewBlog = () => {
                                     <div className="main-content-head">
                                         <div className="post-thumbnils">
                                             <img
-                                                src="assets/images/blog/blog-single.jpg"
+                                                src="/assets/images/blog/blog-single.jpg"
                                                 alt="#"
                                             />
                                         </div>
@@ -82,13 +78,13 @@ const ViewBlog = () => {
                                                 <div className="row">
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <img
-                                                            src="assets/images/blog/blog-inner1.jpg"
+                                                            src="/assets/images/blog/blog-inner1.jpg"
                                                             alt="#"
                                                         />
                                                     </div>
                                                     <div className="col-lg-6 col-md-6 col-12">
                                                         <img
-                                                            src="assets/images/blog/blog-inner2.jpg"
+                                                            src="/assets/images/blog/blog-inner2.jpg"
                                                             alt="#"
                                                         />
                                                     </div>
@@ -174,7 +170,7 @@ const ViewBlog = () => {
                                     <li>
                                         <div className="comment-img">
                                             <img
-                                                src="assets/images/blog/comment1.jpg"
+                                                src="/assets/images/blog/comment1.jpg"
                                                 alt="img"
                                             />
                                         </div>
@@ -207,7 +203,7 @@ const ViewBlog = () => {
                                     <li>
                                         <div className="comment-img">
                                             <img
-                                                src="assets/images/blog/comment2.jpg"
+                                                src="/assets/images/blog/comment2.jpg"
                                                 alt="img"
                                             />
                                         </div>

@@ -1,12 +1,8 @@
-import { Helmet } from "react-helmet-async"
 import Breadcrumbs from "components/BreadCrumbs"
 
 const Pricing = () => {
     return (
         <>
-            <Helmet>
-                <title> Pricing | AuroByte </title>
-            </Helmet>
             <Breadcrumbs current="Our Pricing" />
             <section id="pricing" className="pricing-table section">
                 <div className="container">
