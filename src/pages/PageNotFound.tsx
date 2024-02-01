@@ -1,12 +1,8 @@
-import { Helmet } from "react-helmet-async"
 import { RouterLink } from "routes/components"
 
 const PageNotFound = () => {
     return (
         <>
-            <Helmet>
-                <title> 404 | AuroByte </title>
-            </Helmet>
             <div className="error-area">
                 <div className="d-table">
                     <div className="d-table-cell">
