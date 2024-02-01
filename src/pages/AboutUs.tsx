@@ -3,14 +3,10 @@ import AboutDescription from "components/aboutUs/AboutDescription"
 import CustomerReviews from "components/cutomerReviews/CustomerReviews"
 import ClientsLogo from "components/landing/ClientsLogo"
 // import OurTeam from "components/ourTeam/OurTeam"
-import { Helmet } from "react-helmet-async"
 
 const AboutUs = () => {
     return (
         <>
-            {/* <Helmet>
-                <title> About Us | AuroByte </title>
-            </Helmet> */}
             <Breadcrumbs current="About Us" />
             <div>
                 <section className="about section">
@@ -22,7 +18,7 @@ const AboutUs = () => {
                                     data-wow-delay=".2s"
                                 >
                                     <img
-                                        src="assets/images/about/about-image.jpg"
+                                        src="/assets/images/about/about-image.jpg"
                                         alt="#"
                                     />
                                 </div>
