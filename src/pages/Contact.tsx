@@ -1,12 +1,8 @@
 import Breadcrumbs from "components/BreadCrumbs"
-import { Helmet } from "react-helmet-async"
 
 const Contact = () => {
     return (
         <>
-            <Helmet>
-                <title> Contact | AuroByte </title>
-            </Helmet>
             <Breadcrumbs current="Contact" />
             {/* Start Contact Area */}
             <div className="contact-us section">
