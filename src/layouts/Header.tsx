@@ -47,7 +47,7 @@ const Header = () => {
                                         </li>
                                         <li className="nav-item">
                                             <RouterNavLink
-                                                href="about-us"
+                                                href="/about-us"
                                                 activeClassName="active"
                                                 aria-label="Toggle navigation"
                                             >
@@ -143,7 +143,7 @@ const Header = () => {
 
                                         <li className="nav-item">
                                             <RouterNavLink
-                                                href="careers"
+                                                href="/careers"
                                                 activeClassName="active"
                                                 aria-label="Toggle navigation"
                                             >
@@ -152,7 +152,7 @@ const Header = () => {
                                         </li>
                                         <li className="nav-item">
                                             <RouterNavLink
-                                                href="contact"
+                                                href="/contact"
                                                 activeClassName="active"
                                                 aria-label="Toggle navigation"
                                             >
@@ -163,7 +163,7 @@ const Header = () => {
                                 </div>
                                 {/* navbar collapse */}
                                 <div className="button">
-                                    <RouterLink href="contact" className="btn">
+                                    <RouterLink href="/contact" className="btn">
                                         Get started
                                     </RouterLink>
                                 </div>
