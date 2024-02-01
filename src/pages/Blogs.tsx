@@ -1,12 +1,8 @@
-import { Helmet } from "react-helmet-async"
 import { RouterLink } from "routes/components"
 
 const Blocks = () => {
     return (
         <>
-            <Helmet>
-                <title> Blogs | AuroByte </title>
-            </Helmet>
             <div className="breadcrumbs">
                 <div className="container">
                     <div className="row align-items-center">
@@ -39,7 +35,7 @@ const Blocks = () => {
                                         <div className="blog-img">
                                             <RouterLink href="/view-blog">
                                                 <img
-                                                    src="assets/images/blog/blog-1.png"
+                                                    src="/assets/images/blog/blog-1.png"
                                                     alt="#"
                                                 />
                                             </RouterLink>
@@ -91,7 +87,7 @@ const Blocks = () => {
                                         <div className="blog-img">
                                             <RouterLink href="/view-blog">
                                                 <img
-                                                    src="assets/images/blog/blog-2.png"
+                                                    src="/assets/images/blog/blog-2.png"
                                                     alt="#"
                                                 />
                                             </RouterLink>
@@ -143,7 +139,7 @@ const Blocks = () => {
                                         <div className="blog-img">
                                             <RouterLink href="/view-blog">
                                                 <img
-                                                    src="assets/images/blog/blog-3.png"
+                                                    src="/assets/images/blog/blog-3.png"
                                                     alt="#"
                                                 />
                                             </RouterLink>
@@ -195,7 +191,7 @@ const Blocks = () => {
                                         <div className="blog-img">
                                             <RouterLink href="/view-blog">
                                                 <img
-                                                    src="assets/images/blog/blog-1.png"
+                                                    src="/assets/images/blog/blog-1.png"
                                                     alt="#"
                                                 />
                                             </RouterLink>
@@ -247,7 +243,7 @@ const Blocks = () => {
                                         <div className="blog-img">
                                             <RouterLink href="/view-blog">
                                                 <img
-                                                    src="assets/images/blog/blog-2.png"
+                                                    src="/assets/images/blog/blog-2.png"
                                                     alt="#"
                                                 />
                                             </RouterLink>
@@ -299,7 +295,7 @@ const Blocks = () => {
                                         <div className="blog-img">
                                             <RouterLink href="/view-blog">
                                                 <img
-                                                    src="assets/images/blog/blog-3.png"
+                                                    src="/assets/images/blog/blog-3.png"
                                                     alt="#"
                                                 />
                                             </RouterLink>
