@@ -1,4 +1,3 @@
-"use client";
 import Layout from "layouts";
 import BlogsPage from "pages/Blogs";
 

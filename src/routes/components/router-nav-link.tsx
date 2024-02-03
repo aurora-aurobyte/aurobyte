@@ -6,7 +6,7 @@ import { forwardRef } from "react"
 const RouterNavLink = forwardRef(
     ({ href, className = "", activeClassName, ...other }: any, ref: any) => {
         // TODO activeClassName
-        console.warn("activeClassName is not currently not working.")
+        console.warn("activeClassName is not supported in Next.js, use CSS instead.")
         console.log("activeClassName =", activeClassName)
         return (
             <Link
