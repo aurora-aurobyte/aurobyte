@@ -5,7 +5,6 @@ import Link from "next/link";
 // ----------------------------------------------------------------------
 
 const RouterLink = forwardRef(({ href, ...other }: any, ref: any) => {
-    console.log("RouterLink", other)
     if (href == undefined) {
         console.error("href is undefined", other);
         return null;

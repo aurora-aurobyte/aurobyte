@@ -137,7 +137,7 @@ const Careers = () => {
                                 {/* Apply button */}
                                 <div className="button">
                                     <RouterLink
-                                        href="uiUxDEsigner"
+                                        href="uiUxDesigner"
                                         className="btn"
                                     >
                                         Apply Now

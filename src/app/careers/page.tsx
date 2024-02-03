@@ -1,4 +1,3 @@
-"use client";
 import Layout from "layouts";
 import Careers from "pages/Careers";
 

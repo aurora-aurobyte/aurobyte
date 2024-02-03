@@ -39,7 +39,6 @@ const Header = () => {
                                         <li className="nav-item">
                                             <RouterNavLink
                                                 href="/"
-                                                activeClassName="active"
                                                 aria-label="Toggle navigation"
                                             >
                                                 Home
@@ -48,7 +47,6 @@ const Header = () => {
                                         <li className="nav-item">
                                             <RouterNavLink
                                                 href="/about-us"
-                                                activeClassName="active"
                                                 aria-label="Toggle navigation"
                                             >
                                                 About
@@ -144,7 +142,7 @@ const Header = () => {
                                         <li className="nav-item">
                                             <RouterNavLink
                                                 href="/careers"
-                                                activeClassName="active"
+                                                // activeClassName="active"
                                                 aria-label="Toggle navigation"
                                             >
                                                 Careers
@@ -153,7 +151,7 @@ const Header = () => {
                                         <li className="nav-item">
                                             <RouterNavLink
                                                 href="/contact"
-                                                activeClassName="active"
+                                                // activeClassName="active"
                                                 aria-label="Toggle navigation"
                                             >
                                                 Contact

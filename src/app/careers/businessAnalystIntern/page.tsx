@@ -1,4 +1,3 @@
-"use client";
 import Layout from "layouts";
 import BusinessAnalystIntern from "pages/CareerDetails/BusinessAnalystIntern";
 
