@@ -1,3 +1,4 @@
+"use client"
 import { useState } from "react"
 import ServiceItem from "./ServiceItem"
 
@@ -146,7 +147,7 @@ const Services = () => {
                 <div className="row">
                     {services
                         .slice(0, showMore ? services.length : 6)
-                        .map((service: any, id: number) => (
+                        .map((service, id: number) => (
                             <ServiceItem service={service} key={id} />
                         ))}
                 </div>

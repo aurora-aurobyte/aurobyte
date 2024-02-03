@@ -14,9 +14,6 @@ import AboutDescription from "components/aboutUs/AboutDescription"
 const IndexApp = () => {
     return (
         <>
-            {/* <Helmet>
-                <title> Home | AuroByte </title>
-            </Helmet> */}
             <div>
                 {/* Start Hero Area */}
                 <section className="hero-area">

@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react"
 import PortfolioItem from "./PortfolioItem"
 
@@ -101,7 +102,7 @@ const Portfolio = () => {
                                 portfolio.category ===
                                     categories[currentCategory - 1]
                         )
-                        .map((portfolio: any, id: number) => (
+                        .map((portfolio, id: number) => (
                             <PortfolioItem key={id} portfolio={portfolio} />
                         ))}
                 </div>
